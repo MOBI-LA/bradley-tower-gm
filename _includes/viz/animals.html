@@ -1,0 +1,61 @@
+
+<div class="panel panel-default">
+	<div class="panel-body">
+		<div class="col-sm-12">
+							
+			<script type="text/javascript">
+			jQuery(document).ready(function($)
+			{
+				if( ! $.isFunction($.fn.dxChart))
+					return;
+				var dataSource = [
+					{month: 'Jul-14', waittime: 61.79, goal: 75},
+					{month: 'Aug-14', waittime: 69.83, goal: 75},
+					{month: 'Sep-14', waittime: 66.94, goal: 75},
+					{month: 'Oct-14', waittime: 67.02, goal: 75},
+					{month: 'Nov-14', waittime: 84.99, goal: 75},
+					{month: 'Dec-14', waittime: 84.04, goal: 75},
+					{month: 'Jan-15', waittime: 88.60, goal: 75},
+					{month: 'Feb-15', waittime: 84.80, goal: 75},
+					{month: 'Mar-15', waittime: 77.25, goal: 75},
+					{month: 'Apr-15', waittime: 72.54, goal: 75},
+					{month: 'May-15', waittime: 70.84, goal: 75},
+					{month: 'Jun-15', waittime: 70.92, goal: 75},
+
+				];
+				$("#bar-7").dxChart({
+					dataSource: dataSource,
+					commonSeriesSettings: {
+						argumentField: "month"
+					},
+					series: [
+						{ valueField: "waittime", name: "Animal Live/Save Rate", color: "#7c38bc" },
+						{ valueField: "goal", name: "Goal ", color: "#990000" },
+						
+					],
+					argumentAxis:{
+						grid:{
+							visible: true
+						}
+					},
+					tooltip:{
+						enabled: true
+					},
+					title: "Animal Live/Save Rate",
+					legend: {
+						verticalAlignment: "bottom",
+						horizontalAlignment: "center"
+					},
+					commonPaneSettings: {
+						border:{
+							visible: true,
+							right: false
+						}
+					}
+				});
+			});
+			</script>
+			<div id="bar-7" style="height: 250px; width: 100%;"></div>
+		</div>
+	</div>
+</div>												
