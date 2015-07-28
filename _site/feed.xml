@@ -5,38 +5,65 @@
     <description>The Mayor&#39;s Dashboard tracks key metrics and outcomes from the City of Los Angeles. The platform is open-source and easily reusable; contact us if your city is interested in deploying it.</description>
     <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/</link>
     <atom:link href="http://datala.github.io/bradley-tower-gm//bradley-tower-gm/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 27 Jul 2015 20:43:53 -0500</pubDate>
-    <lastBuildDate>Mon, 27 Jul 2015 20:43:53 -0500</lastBuildDate>
+    <pubDate>Mon, 27 Jul 2015 20:21:59 -0700</pubDate>
+    <lastBuildDate>Mon, 27 Jul 2015 20:21:59 -0700</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Zoo</title>
-        <description></description>
-        <pubDate>Sun, 28 Jun 2015 03:12:25 -0500</pubDate>
-        <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOCS/Zoo</link>
-        <guid isPermaLink="true">http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOCS/Zoo</guid>
-        
-        
-        <category>mocs</category>
-        
-      </item>
-    
-      <item>
-        <title>Sanitation</title>
-        <description></description>
-        <pubDate>Sun, 28 Jun 2015 03:12:25 -0500</pubDate>
-        <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOCS/sanitation</link>
-        <guid isPermaLink="true">http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOCS/sanitation</guid>
-        
-        
-        <category>mocs</category>
-        
-      </item>
-    
-      <item>
         <title>RAP</title>
-        <description></description>
-        <pubDate>Sun, 28 Jun 2015 03:12:25 -0500</pubDate>
+        <description>
+&lt;div class=&quot;panel panel-default&quot;&gt;
+	&lt;div class=&quot;panel-body&quot;&gt;
+		&lt;div class=&quot;col-sm-12&quot;&gt;
+							
+			&lt;script type=&quot;text/javascript&quot;&gt;
+			jQuery(document).ready(function($)
+			{
+				if( ! $.isFunction($.fn.dxChart))
+					return;
+				var dataSource = [
+					{month: &#39;FY2012&#39;, waittime: 325000},
+					{month: &#39;FY2013&#39;, waittime: 310000},
+					{month: &#39;FY2014&#39;, waittime: 536357},
+					{month: &#39;FY2015&#39;, waittime: 374469},
+
+				];
+				$(&quot;#bar-7&quot;).dxChart({
+					dataSource: dataSource,
+					commonSeriesSettings: {
+						argumentField: &quot;month&quot;
+					},
+					series: [
+						{ valueField: &quot;waittime&quot;, name: &quot;Total visitors to museums&quot;, color: &quot;#7c38bc&quot; },
+						
+					],
+					argumentAxis:{
+						grid:{
+							visible: true
+						}
+					},
+					tooltip:{
+						enabled: true
+					},
+					title: &quot;Total visitors to museums (excluding Griffith Observatory)&quot;,
+					legend: {
+						verticalAlignment: &quot;bottom&quot;,
+						horizontalAlignment: &quot;center&quot;
+					},
+					commonPaneSettings: {
+						border:{
+							visible: true,
+							right: false
+						}
+					}
+				});
+			});
+			&lt;/script&gt;
+			&lt;div id=&quot;bar-7&quot; style=&quot;height: 250px; width: 100%;&quot;&gt;&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;												</description>
+        <pubDate>Sun, 28 Jun 2015 01:12:25 -0700</pubDate>
         <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOCS/RAP</link>
         <guid isPermaLink="true">http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOCS/RAP</guid>
         
@@ -143,7 +170,7 @@
 &lt;/div&gt;
 
 </description>
-        <pubDate>Sun, 28 Jun 2015 03:12:25 -0500</pubDate>
+        <pubDate>Sun, 28 Jun 2015 01:12:25 -0700</pubDate>
         <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/poverty</link>
         <guid isPermaLink="true">http://datala.github.io/bradley-tower-gm//bradley-tower-gm/poverty</guid>
         
@@ -438,7 +465,7 @@
 	&lt;/div&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Sun, 28 Jun 2015 03:12:25 -0500</pubDate>
+        <pubDate>Sun, 28 Jun 2015 01:12:25 -0700</pubDate>
         <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOPS</link>
         <guid isPermaLink="true">http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOPS</guid>
         
@@ -545,7 +572,7 @@
 					
 
 					&lt;/div&gt;</description>
-        <pubDate>Sun, 28 Jun 2015 03:12:25 -0500</pubDate>
+        <pubDate>Sun, 28 Jun 2015 01:12:25 -0700</pubDate>
         <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOED</link>
         <guid isPermaLink="true">http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOED</guid>
         
@@ -680,7 +707,7 @@
 		&lt;/div&gt;
 
 	&lt;/div&gt;</description>
-        <pubDate>Sun, 28 Jun 2015 03:12:25 -0500</pubDate>
+        <pubDate>Sun, 28 Jun 2015 01:12:25 -0700</pubDate>
         <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOCS</link>
         <guid isPermaLink="true">http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOCS</guid>
         
@@ -782,7 +809,7 @@ jQuery(document).ready(function($)
 	&lt;/div&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Sun, 28 Jun 2015 03:12:25 -0500</pubDate>
+        <pubDate>Sun, 28 Jun 2015 01:12:25 -0700</pubDate>
         <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOBI</link>
         <guid isPermaLink="true">http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOBI</guid>
         
@@ -792,9 +819,63 @@ jQuery(document).ready(function($)
       </item>
     
       <item>
-        <title>Libraries</title>
-        <description></description>
-        <pubDate>Sun, 28 Jun 2015 03:12:25 -0500</pubDate>
+        <title>Library</title>
+        <description>
+&lt;div class=&quot;panel panel-default&quot;&gt;
+	&lt;div class=&quot;panel-body&quot;&gt;
+		&lt;div class=&quot;col-sm-12&quot;&gt;
+							
+			&lt;script type=&quot;text/javascript&quot;&gt;
+			jQuery(document).ready(function($)
+			{
+				if( ! $.isFunction($.fn.dxChart))
+					return;
+				var dataSource = [
+					{year: &#39;FY 2009&#39;, waittime: 1134619},
+					{year: &#39;FY 2010&#39;, waittime: 1368354},
+					{year: &#39;FY 2011&#39;, waittime: 1231764},
+					{year: &#39;FY 2012&#39;, waittime: 1076578},
+					{year: &#39;FY 2013&#39;, waittime: 1138105},
+					{year: &#39;FY 2014&#39;, waittime: 1148250},
+					{year: &#39;FY 2015&#39;, waittime: 1266006},
+
+				];
+				$(&quot;#bar-7&quot;).dxChart({
+					dataSource: dataSource,
+					commonSeriesSettings: {
+						argumentField: &quot;year&quot;
+					},
+					series: [
+						{ valueField: &quot;waittime&quot;, name: &quot;Total Cardholders&quot;, color: &quot;#7c38bc&quot; },
+						
+					],
+					argumentAxis:{
+						grid:{
+							visible: true
+						}
+					},
+					tooltip:{
+						enabled: true
+					},
+					title: &quot;Total Cardholders&quot;,
+					legend: {
+						verticalAlignment: &quot;bottom&quot;,
+						horizontalAlignment: &quot;center&quot;
+					},
+					commonPaneSettings: {
+						border:{
+							visible: true,
+							right: false
+						}
+					}
+				});
+			});
+			&lt;/script&gt;
+			&lt;div id=&quot;bar-7&quot; style=&quot;height: 250px; width: 100%;&quot;&gt;&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;												</description>
+        <pubDate>Sun, 28 Jun 2015 01:12:25 -0700</pubDate>
         <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOCS/library</link>
         <guid isPermaLink="true">http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOCS/library</guid>
         
@@ -874,12 +955,152 @@ jQuery(document).ready(function($)
 		&lt;/div&gt;
 				
 	&lt;/div&gt;</description>
-        <pubDate>Sun, 28 Jun 2015 03:12:25 -0500</pubDate>
+        <pubDate>Sun, 28 Jun 2015 01:12:25 -0700</pubDate>
         <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/homelessness</link>
         <guid isPermaLink="true">http://datala.github.io/bradley-tower-gm//bradley-tower-gm/homelessness</guid>
         
         
         <category>focus</category>
+        
+      </item>
+    
+      <item>
+        <title>Drought</title>
+        <description>
+&lt;div class=&quot;panel panel-default&quot;&gt;
+	&lt;div class=&quot;panel-body&quot;&gt;
+		&lt;div class=&quot;col-sm-12&quot;&gt;
+							
+			&lt;script type=&quot;text/javascript&quot;&gt;
+			jQuery(document).ready(function($)
+			{
+				if( ! $.isFunction($.fn.dxChart))
+					return;
+				var dataSource = [
+					{month: &#39;June&#39;, waittime: 51320.9},
+					{month: &#39;July&#39;, waittime: 263203.36},
+					{month: &#39;August&#39;, waittime: 96585},
+					{month: &#39;September&#39;, waittime: 402304.5},
+					{month: &#39;October&#39;, waittime: 361487.45},
+					{month: &#39;November&#39;, waittime: 126889.7},
+					{month: &#39;December&#39;, waittime: 293050.25},
+					{month: &#39;January&#39;, waittime: 585796},
+					{month: &#39;February&#39;, waittime: 1513650.78},
+					{month: &#39;March&#39;, waittime: 1114476},
+					{month: &#39;April&#39;, waittime: 1268884},
+				];
+				$(&quot;#bar-7&quot;).dxChart({
+					dataSource: dataSource,
+					commonSeriesSettings: {
+						argumentField: &quot;month&quot;
+					},
+					series: [
+						{ valueField: &quot;waittime&quot;, name: &quot;Sq. Ft. of Turf Replaced &quot;, color: &quot;#7c38bc&quot; },
+					],
+					argumentAxis:{
+						grid:{
+							visible: true
+						}
+					},
+					tooltip:{
+						enabled: true
+					},
+					title: &quot;Sq. Ft. of Turf Replaced &quot;,
+					legend: {
+						verticalAlignment: &quot;bottom&quot;,
+						horizontalAlignment: &quot;center&quot;
+					},
+					commonPaneSettings: {
+						border:{
+							visible: true,
+							right: false
+						}
+					}
+				});
+			});
+			&lt;/script&gt;
+			&lt;div id=&quot;bar-7&quot; style=&quot;height: 250px; width: 100%;&quot;&gt;&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;	
+&lt;/div&gt;												
+&lt;div class=&quot;row&quot;&gt;
+&lt;a name=&quot;datavisitors&quot;&gt;&lt;/a&gt;
+&lt;div class=&quot;panel panel-default&quot;&gt;
+	&lt;div class=&quot;panel-body&quot;&gt;
+		&lt;div class=&quot;col-sm-12&quot;&gt;
+							
+			&lt;script type=&quot;text/javascript&quot;&gt;
+			jQuery(document).ready(function($)
+			{
+				if( ! $.isFunction($.fn.dxChart))
+					return;
+				var dataSource = [
+					{month: &#39;June&#39;, waittime: 99359.8},
+					{month: &#39;July&#39;, waittime: 489518.32},
+					{month: &#39;August&#39;, waittime: 189535},
+					{month: &#39;September&#39;, waittime: 918331.1},
+					{month: &#39;October&#39;, waittime: 877858.66},
+					{month: &#39;November&#39;, waittime: 330033.1},
+					{month: &#39;December&#39;, waittime: 833731.75},
+					{month: &#39;January&#39;, waittime: 1634509},
+					{month: &#39;February&#39;, waittime: 4510961.61},
+					{month: &#39;March&#39;, waittime: 3580279},
+					{month: &#39;April&#39;, waittime: 4121885},
+				];
+				$(&quot;#bar-8&quot;).dxChart({
+					dataSource: dataSource,
+					commonSeriesSettings: {
+						argumentField: &quot;month&quot;
+					},
+					series: [
+						{ valueField: &quot;waittime&quot;, name: &quot;Incentives Paid for Turf Removal&quot;, color: &quot;#7c38bc&quot; },
+					],
+					argumentAxis:{
+						grid:{
+							visible: true
+						}
+					},
+					tooltip:{
+						enabled: true
+					},
+					title: &quot;Incentives Paid for Turf Removal&quot;,
+					legend: {
+						verticalAlignment: &quot;bottom&quot;,
+						horizontalAlignment: &quot;center&quot;
+					},
+					commonPaneSettings: {
+						border:{
+							visible: true,
+							right: false
+						}
+					}
+				});
+			});
+			&lt;/script&gt;
+			&lt;div id=&quot;bar-8&quot; style=&quot;height: 250px; width: 100%;&quot;&gt;&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sun, 28 Jun 2015 01:12:25 -0700</pubDate>
+        <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/drought</link>
+        <guid isPermaLink="true">http://datala.github.io/bradley-tower-gm//bradley-tower-gm/drought</guid>
+        
+        
+        <category>focus</category>
+        
+      </item>
+    
+      <item>
+        <title>Department of Cultural Affairs</title>
+        <description></description>
+        <pubDate>Sun, 28 Jun 2015 01:12:25 -0700</pubDate>
+        <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOCS/DCA</link>
+        <guid isPermaLink="true">http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOCS/DCA</guid>
+        
+        
+        <category>mocs</category>
         
       </item>
     

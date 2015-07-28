@@ -7,7 +7,7 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Libraries &#8211; City of Los Angeles Mayoral Dashboard</title>
+    <title>Library &#8211; City of Los Angeles Mayoral Dashboard</title>
     <meta name="description" content="The Mayor&#39;s Dashboard tracks key metrics and outcomes from the City of Los Angeles. The platform is open-source and easily reusable; contact us if your city is interested in deploying it.">
     <meta name="author" content="">
 	
@@ -79,20 +79,6 @@
 					<ul>
 					    
 					      <li>
-					        <a href="/bradley-tower-gm/MOCS/Zoo">
-								<i class="linecons-cog"></i>
-								Zoo
-							</a>
-					      </li>
-					    
-					      <li>
-					        <a href="/bradley-tower-gm/MOCS/sanitation">
-								<i class="linecons-cog"></i>
-								Sanitation
-							</a>
-					      </li>
-					    
-					      <li>
 					        <a href="/bradley-tower-gm/MOCS/RAP">
 								<i class="linecons-cog"></i>
 								RAP
@@ -102,42 +88,7 @@
 					      <li>
 					        <a href="/bradley-tower-gm/MOCS/library">
 								<i class="linecons-cog"></i>
-								Libraries
-							</a>
-					      </li>
-					    
-					      <li>
-					        <a href="/bradley-tower-gm/MOCS/el-peublo">
-								<i class="linecons-cog"></i>
-								El Peublo
-							</a>
-					      </li>
-					    
-					      <li>
-					        <a href="/bradley-tower-gm/MOCS/DWP">
-								<i class="linecons-cog"></i>
-								Department of Water and Power
-							</a>
-					      </li>
-					    
-					      <li>
-					        <a href="/bradley-tower-gm/MOCS/DPW">
-								<i class="linecons-cog"></i>
-								Department of Public Works
-							</a>
-					      </li>
-					    
-					      <li>
-					        <a href="/bradley-tower-gm/MOCS/DOT">
-								<i class="linecons-cog"></i>
-								DOT
-							</a>
-					      </li>
-					    
-					      <li>
-					        <a href="/bradley-tower-gm/MOCS/DOD">
-								<i class="linecons-cog"></i>
-								Department of Disabilities
+								Library
 							</a>
 					      </li>
 					    
@@ -149,44 +100,9 @@
 					      </li>
 					    
 					      <li>
-					        <a href="/bradley-tower-gm/MOCS/BSS">
-								<i class="linecons-cog"></i>
-								BSS
-							</a>
-					      </li>
-					    
-					      <li>
-					        <a href="/bradley-tower-gm/MOCS/BSL">
-								<i class="linecons-cog"></i>
-								BSL
-							</a>
-					      </li>
-					    
-					      <li>
-					        <a href="/bradley-tower-gm/MOCS/BOE">
-								<i class="linecons-cog"></i>
-								BOE
-							</a>
-					      </li>
-					    
-					      <li>
-					        <a href="/bradley-tower-gm/MOCS/BCA">
-								<i class="linecons-cog"></i>
-								BCA
-							</a>
-					      </li>
-					    
-					      <li>
 					        <a href="/bradley-tower-gm/MOCS/animals">
 								<i class="linecons-cog"></i>
 								Animal Services
-							</a>
-					      </li>
-					    
-					      <li>
-					        <a href="/bradley-tower-gm/MOCS/Aging">
-								<i class="linecons-cog"></i>
-								Aging
 							</a>
 					      </li>
 					    
@@ -277,12 +193,66 @@
 		<!-- Adding class "collapsed" collapse sidebar root elements and show only icons. -->
 	
 		<div class="main-content">
-			<h1 class="bg-info">Libraries</h1>
+			<h1 class="bg-info">Library</h1>
 			<script>
 			var xenonPalette = ['#68b828','#7c38bc','#0e62c7','#fcd036','#4fcdfc','#00b19d','#ff6264','#f7aa47'];
 			</script>
 			<div class="row">
 			    
+<div class="panel panel-default">
+	<div class="panel-body">
+		<div class="col-sm-12">
+							
+			<script type="text/javascript">
+			jQuery(document).ready(function($)
+			{
+				if( ! $.isFunction($.fn.dxChart))
+					return;
+				var dataSource = [
+					{year: 'FY 2009', waittime: 1134619},
+					{year: 'FY 2010', waittime: 1368354},
+					{year: 'FY 2011', waittime: 1231764},
+					{year: 'FY 2012', waittime: 1076578},
+					{year: 'FY 2013', waittime: 1138105},
+					{year: 'FY 2014', waittime: 1148250},
+					{year: 'FY 2015', waittime: 1266006},
+
+				];
+				$("#bar-7").dxChart({
+					dataSource: dataSource,
+					commonSeriesSettings: {
+						argumentField: "year"
+					},
+					series: [
+						{ valueField: "waittime", name: "Total Cardholders", color: "#7c38bc" },
+						
+					],
+					argumentAxis:{
+						grid:{
+							visible: true
+						}
+					},
+					tooltip:{
+						enabled: true
+					},
+					title: "Total Cardholders",
+					legend: {
+						verticalAlignment: "bottom",
+						horizontalAlignment: "center"
+					},
+					commonPaneSettings: {
+						border:{
+							visible: true,
+							right: false
+						}
+					}
+				});
+			});
+			</script>
+			<div id="bar-7" style="height: 250px; width: 100%;"></div>
+		</div>
+	</div>
+</div>												
 			</div>
 			
 			
