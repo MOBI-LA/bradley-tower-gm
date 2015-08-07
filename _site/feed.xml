@@ -5,8 +5,8 @@
     <description>The Mayor&#39;s Dashboard tracks key metrics and outcomes from the City of Los Angeles. The platform is open-source and easily reusable; contact us if your city is interested in deploying it.</description>
     <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/</link>
     <atom:link href="http://datala.github.io/bradley-tower-gm//bradley-tower-gm/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 04 Aug 2015 10:24:40 -0700</pubDate>
-    <lastBuildDate>Tue, 04 Aug 2015 10:24:40 -0700</lastBuildDate>
+    <pubDate>Fri, 07 Aug 2015 10:48:53 -0400</pubDate>
+    <lastBuildDate>Fri, 07 Aug 2015 10:48:53 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -64,7 +64,7 @@
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;												</description>
-        <pubDate>Sun, 28 Jun 2015 01:12:25 -0700</pubDate>
+        <pubDate>Sun, 28 Jun 2015 04:12:25 -0400</pubDate>
         <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOCS/Zoo</link>
         <guid isPermaLink="true">http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOCS/Zoo</guid>
         
@@ -75,14 +75,9 @@
     
       <item>
         <title>Vision Zero</title>
-        <description>&lt;div class=&quot;row&quot;&gt;
-	&lt;div class=&quot;col-sm-12&quot;&gt;
-			&lt;iframe width=&quot;100%&quot; height=&quot;500px&quot; src=&quot;http://ladot.maps.arcgis.com/apps/MapJournal/index.html?appid=bc3665315982470491e5ea0669ce4a50&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;	
-			&lt;/iframe&gt;
-	&lt;/div&gt;
-&lt;/div&gt;
+        <description>
 </description>
-        <pubDate>Sun, 28 Jun 2015 01:12:25 -0700</pubDate>
+        <pubDate>Sun, 28 Jun 2015 04:12:25 -0400</pubDate>
         <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/vison-zero</link>
         <guid isPermaLink="true">http://datala.github.io/bradley-tower-gm//bradley-tower-gm/vison-zero</guid>
         
@@ -145,7 +140,7 @@
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;												</description>
-        <pubDate>Sun, 28 Jun 2015 01:12:25 -0700</pubDate>
+        <pubDate>Sun, 28 Jun 2015 04:12:25 -0400</pubDate>
         <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOCS/RAP</link>
         <guid isPermaLink="true">http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOCS/RAP</guid>
         
@@ -252,7 +247,7 @@
 &lt;/div&gt;
 
 </description>
-        <pubDate>Sun, 28 Jun 2015 01:12:25 -0700</pubDate>
+        <pubDate>Sun, 28 Jun 2015 04:12:25 -0400</pubDate>
         <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/poverty</link>
         <guid isPermaLink="true">http://datala.github.io/bradley-tower-gm//bradley-tower-gm/poverty</guid>
         
@@ -547,7 +542,7 @@
 	&lt;/div&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Sun, 28 Jun 2015 01:12:25 -0700</pubDate>
+        <pubDate>Sun, 28 Jun 2015 04:12:25 -0400</pubDate>
         <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOPS</link>
         <guid isPermaLink="true">http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOPS</guid>
         
@@ -654,7 +649,7 @@
 					
 
 					&lt;/div&gt;</description>
-        <pubDate>Sun, 28 Jun 2015 01:12:25 -0700</pubDate>
+        <pubDate>Sun, 28 Jun 2015 04:12:25 -0400</pubDate>
         <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOED</link>
         <guid isPermaLink="true">http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOED</guid>
         
@@ -789,7 +784,7 @@
 		&lt;/div&gt;
 
 	&lt;/div&gt;</description>
-        <pubDate>Sun, 28 Jun 2015 01:12:25 -0700</pubDate>
+        <pubDate>Sun, 28 Jun 2015 04:12:25 -0400</pubDate>
         <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOCS</link>
         <guid isPermaLink="true">http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOCS</guid>
         
@@ -891,7 +886,7 @@ jQuery(document).ready(function($)
 	&lt;/div&gt;
 &lt;/div&gt;
 </description>
-        <pubDate>Sun, 28 Jun 2015 01:12:25 -0700</pubDate>
+        <pubDate>Sun, 28 Jun 2015 04:12:25 -0400</pubDate>
         <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOBI</link>
         <guid isPermaLink="true">http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOBI</guid>
         
@@ -957,7 +952,7 @@ jQuery(document).ready(function($)
 		&lt;/div&gt;
 	&lt;/div&gt;
 &lt;/div&gt;												</description>
-        <pubDate>Sun, 28 Jun 2015 01:12:25 -0700</pubDate>
+        <pubDate>Sun, 28 Jun 2015 04:12:25 -0400</pubDate>
         <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOCS/library</link>
         <guid isPermaLink="true">http://datala.github.io/bradley-tower-gm//bradley-tower-gm/MOCS/library</guid>
         
@@ -1037,7 +1032,7 @@ jQuery(document).ready(function($)
 		&lt;/div&gt;
 				
 	&lt;/div&gt;</description>
-        <pubDate>Sun, 28 Jun 2015 01:12:25 -0700</pubDate>
+        <pubDate>Sun, 28 Jun 2015 04:12:25 -0400</pubDate>
         <link>http://datala.github.io/bradley-tower-gm//bradley-tower-gm/homelessness</link>
         <guid isPermaLink="true">http://datala.github.io/bradley-tower-gm//bradley-tower-gm/homelessness</guid>
         
